@@ -1,24 +1,3 @@
-/*
-* Name: Kiran Brahmatewari
-* PID: 5467937
-*
-* I affirm that I wrote this program myself without any help
-* from any other people or sources from the internet
-*
-* This program is an extension of myshell.c with pipelines
-* + I/O redirection functionality. It can do the following:
-*
-* 1. > Redirect standard output from a command to a file; if the
-* file already exists, it will be erased and overwritten without warning
-*
-* 2. >> Append standard output from a command to a file if
-* the file exists, else create a new one
-*
-* 3. < Redirect standard input from a file to a command
-*
-* 4. | Pass the standard output of one command to another
-* for further processing
-*/
 #include <stdio.h>
 #include <sys/wait.h>
 #include <stdlib.h>

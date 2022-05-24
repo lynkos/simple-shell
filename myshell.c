@@ -96,7 +96,7 @@ void execute(char *cmdline) {
 
   /* command(s) execution */
   pid_t pid = 0;
-  for(unsigned int index = 0; index <= pipes; ++index) {
+  for(int index = 0; index <= pipes; ++index) {
     if(pipes > 0 && index != pipes) /* if command(s) contain(s) pipe(s) */
       pipe(right_pipe);
 
